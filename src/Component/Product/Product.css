@@ -3,6 +3,7 @@
     height: 450px;
     border: 1px solid #35a0a7;
     border-radius: 7px;
+     position: relative;
 }
 
 .product img {
@@ -10,4 +11,25 @@
     width: 280px;
     border-radius: 8px;
     margin: 5px
+}
+.product-info{
+    margin:0 14px;
+    font-family: "Lato";
+    font-weight: 600;
+}
+.product-info  p{
+    
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.btn-cart{
+    width: 100%;
+    font-weight: 600;
+    border-radius: 0px  0px 8px 8px;
+    border:1px solid blue;
+    position: absoluate   ;
+    bottom: 0;
+    
 }
