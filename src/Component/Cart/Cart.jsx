@@ -1,6 +1,11 @@
+import './Cart.css'
+
 const Cart = () => {
   return (
-    <div> This  is Cart Cart</div>
+    <div className="cart" > 
+
+      <h4 className="cart-text"> Selected Product </h4>
+    </div>
   )
 }
 
