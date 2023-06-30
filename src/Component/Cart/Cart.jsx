@@ -3,7 +3,15 @@ import './Cart.css'
 import SelectItem from '../SelcetItem/SelectItem'
 
 const Cart = ({cart}) => {
-  const [selectProduct, setSelectProduct] = useState([])
+  const [oneCart, setOneCart] = useState([])
+  // const [selectProduct, setSelectProduct] = useState([])
+  const handleToOneCart = (cart) =>{
+    if(cart.length){
+      const x = Math.random()
+    }
+  }
+
+
   return (
     <div className="cart" > 
 
@@ -11,7 +19,7 @@ const Cart = ({cart}) => {
       {cart.length}
 
       {
-        cart.map(item => <SelectItem key={item.id} cart={cart}></SelectItem> )
+        cart.map(item => <SelectItem key={item.id} selectedItem = {item} ></SelectItem> )
       }
 
     </div>

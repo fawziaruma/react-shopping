@@ -43,6 +43,7 @@
     margin-right: 7px;
 }
 .btn-cart:hover{
-    background-color: aquamarine;
+    background-color: white;
+    color: black;
    
 }
